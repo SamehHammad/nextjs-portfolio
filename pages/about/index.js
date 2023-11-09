@@ -24,23 +24,23 @@ export const aboutData = [
     info: [
       {
         title: 'Веб разработка',
-        icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
-        ],
+        // icons: [
+        //   <FaHtml5 />,
+        //   <FaCss3 />,
+        //   <FaJs />,
+        //   <FaReact />,
+        //   <SiNextdotjs />,
+        //   <SiFramer />,
+        //   <FaWordpress />,
+        // ],
       },
       {
         title: 'UI/UX дизайн',
-        icons: [
-          <FaFigma />,
-          <SiAdobexd />,
-          <SiAdobephotoshop />,
-        ],
+        // icons: [
+        //   <FaFigma />,
+        //   <SiAdobexd />,
+        //   <SiAdobephotoshop />,
+        // ],
       },
     ],
   },
