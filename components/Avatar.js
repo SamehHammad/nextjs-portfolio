@@ -5,11 +5,12 @@ const Avatar = () => {
   return (
     <div className='hidden xl:flex xl:max-w-none'>
       <Image
-        src={'/avatar-1.png'}
+        src={'/react-portfolio-starter/avatar-1.png'}
         width={700}
         height={643}
         alt=''
         className='translate-z-0 w-full h-full'
+        priority
       />
     </div>
   );

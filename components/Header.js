@@ -15,7 +15,7 @@ const Header = () => {
           {/* logo */}
           <Link href={'/'}>
             <Image
-              src={'/logo-startsite.svg'}
+              src={'/react-portfolio-starter/logo-startsite.svg'}
               width={200}
               height={25}
               alt='StartSite logo'

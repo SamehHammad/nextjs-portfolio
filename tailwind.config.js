@@ -27,10 +27,10 @@ module.exports = {
         accent: '#F13024',
       },
       backgroundImage: {
-        explosion: 'url("/bg-explosion.png")',
-        circles: 'url("/bg-circles.png")',
-        circleStar: 'url("/circle-star.svg")',
-        site: 'url("/site-bg.svg")',
+        explosion: 'url("/react-portfolio-starter/bg-explosion.png")',
+        circles: 'url("/react-portfolio-starter/bg-circles.png")',
+        circleStar: 'url("/react-portfolio-starter/circle-star.svg")',
+        site: 'url("/react-portfolio-starter/site-bg.svg")',
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
