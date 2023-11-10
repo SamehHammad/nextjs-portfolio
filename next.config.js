@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/react-portfolio-starter',
   reactStrictMode: true,
   swcMinify: true,
-  // basePath: '/react-portfolio-starter'
 }
 
 module.exports = nextConfig
