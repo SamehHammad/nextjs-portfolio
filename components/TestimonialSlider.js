@@ -2,24 +2,24 @@
 export const testimonialSlider = [
   {
     image: '/t-avt-1.png',
-    name: 'Анна Иванова',
-    position: 'Сайт: www.aquaphor.ru',
+    name: 'Yassmine Ibrahim',
+    position: 'CEO, Tech Innovations Inc.',
     message:
-      'Мы считаем, что дизайн сайта - это не просто красивые картинки и цвета, это инструмент, который помогает привлечь внимание и удержать пользователя на сайте. Мы создаем уникальные дизайны, которые соответствуют вашей бренд-идентичности и являются удобными для пользователей.',
+      'Working with Sameh was a game-changer for our company. Their front-end development skills and UI/UX design expertise elevated our digital presence, resulting in a significant boost in user engagement. Highly recommended!',
   },
   {
     image: '/t-avt-2.png',
-    name: 'Юлия Константинова',
-    position: 'Сайт: grainholding.ru',
+    name: 'Alice Johnson',
+    position: 'Marketing Director, Creative Solutions Agency',
     message:
-      'Мы понимаем, что каждый бизнес уникален и требует индивидуального подхода. Поэтому мы готовы разработать сайт, который будет соответствовать вашим потребностям и целям. Мы общаемся с клиентами, чтобы понять их бизнес-процессы и создаем сайты, которые помогают достигать поставленных задач.',
+      '"Sameh brought a fresh perspective to our projects. Their eye for detail in UI design and seamless front-end development not only met but exceeded our expectations. A true professional who delivers on time with flair.',
   },
   {
     image: '/t-avt-3.png',
-    name: 'Егор Алексеев',
-    position: 'Сайт: mesee.ru',
+    name: 'Mohammed Kareem',
+    position: 'Founder, StartupX',
     message:
-      'Наша веб студия предлагает полный спектр услуг по созданию сайтов: от разработки дизайна до написания контента и настройки SEO. Мы учитываем все потребности бизнеса и создаем сайты, которые привлекают клиентов и увеличивают продажи.',
+      'I\'m impressed with Sameh\'s ability to turn concepts into visually stunning realities. Their front-end development skills and intuitive UI/UX design transformed our product, making it stand out in a competitive market. A pleasure to work with!',
   },
 ];
 

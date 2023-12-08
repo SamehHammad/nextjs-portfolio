@@ -174,7 +174,7 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Translating ide<span className="text-accent">as into codes</span>
+            Transforming ide<span className="text-accent">as into codes</span>
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -282,17 +282,18 @@ const About = () => {
               );
             })}
           </div>
-          <div className="py-1 xl:py-6 flex text-[10px] lg:text-lg flex-col flex-wrap gap-y-2 xl:gap-y-4 items-center xl:items-start  ">
+          <div className="py-1 xl:py-6 flex xs:text-[12px] md:text-[15px] xl:text-[18px] flex-col flex-wrap gap-y-2 xl:gap-y-4 items-center xl:items-start  ">
             {aboutData[index].info.map((item, itemIndex) => {
               return (
                 <div
                   key={itemIndex}
-                  className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 
+                  className="flex-1 flex  md:flex-row max-w-max gap-x-2 
                   items-center text-white/60 "
                 >
                   {/* Title */}
-                  <div className="font-light mb-1 md:mb-0">{item.title}</div>
-                  <div className="hidden md:flex">-</div>
+                  <div className="font-light mb-0">{item.title}</div>
+                  <div className="hidden flex">-</div>
+                  <div>{item.stage}</div>
                   {item.link && (
                     <Link
                       href={item.link}
@@ -301,7 +302,6 @@ const About = () => {
                       <FaEye />
                     </Link>
                   )}
-                  <div>{item.stage}</div>
                   {/* icons */}
                   <div className="flex gap-x-4">
                     {item.icons?.map((icon, itemIndex) => {
