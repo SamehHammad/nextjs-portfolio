@@ -58,8 +58,11 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            With a passion for creating user-friendly and responsive web
-            applications
+            Passionate front-end developer dedicated to crafting visually
+            stunning and responsive web experiences. Proficient in creating
+            intuitive user interfaces, ensuring seamless cross-browser
+            compatibility, and optimizing performance for an exceptional online
+            presence.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">

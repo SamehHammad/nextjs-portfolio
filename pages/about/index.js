@@ -152,7 +152,7 @@ import Link from "next/link";
 const About = () => {
   const [index, setIndex] = useState(0);
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left over ">
+    <div className="h-full bg-primary/30 py-32 text-center xl:text-left overflow-y-auto ">
       <Circles />
       {/* avatar Img*/}
       <motion.div
@@ -282,7 +282,7 @@ const About = () => {
               );
             })}
           </div>
-          <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start overflow-y-auto ">
+          <div className="py-1 xl:py-6 flex text-[10px] lg:text-lg flex-col flex-wrap gap-y-2 xl:gap-y-4 items-center xl:items-start  ">
             {aboutData[index].info.map((item, itemIndex) => {
               return (
                 <div
@@ -291,9 +291,8 @@ const About = () => {
                   items-center text-white/60 "
                 >
                   {/* Title */}
-                  <div className="font-light mb-2 md:mb-0">{item.title}</div>
+                  <div className="font-light mb-1 md:mb-0">{item.title}</div>
                   <div className="hidden md:flex">-</div>
-                  <div>{item.stage}</div>
                   {item.link && (
                     <Link
                       href={item.link}
@@ -302,6 +301,7 @@ const About = () => {
                       <FaEye />
                     </Link>
                   )}
+                  <div>{item.stage}</div>
                   {/* icons */}
                   <div className="flex gap-x-4">
                     {item.icons?.map((icon, itemIndex) => {

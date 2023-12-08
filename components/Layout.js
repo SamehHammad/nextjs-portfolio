@@ -17,7 +17,7 @@ import Head from "next/head";
 const Layout = ({ children }) => {
   return (
     <div
-      className={`page bg-site text-white bg-cover bg-no-repeat ${opensans.variable} font-opensans relative`}
+      className={`page bg-site text-white bg-cover  bg-no-repeat ${opensans.variable} font-opensans relative`}
     >
       <TopLeftImg />
       <Nav />

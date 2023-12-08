@@ -20,7 +20,7 @@ const Header = () => {
               height={25}
               alt="StartSite logo"
               priority={true}
-              className="absolute bottom-[2%] w-full h-full max-w-[180px] max-h-[258px] "
+              className="absolute sm:left-[0]  xs:left-[-14%] xs:bottom-[-5%] sm:bottom-[0] w-full h-full max-w-[170px] max-h-[258px] "
             />
             <Image
               src={"/logo2.svg"}
@@ -28,7 +28,7 @@ const Header = () => {
               height={25}
               alt="StartSite logo"
               priority={true}
-              className="-bottom-[150px] animate-spin-slow-nolinear w-full h-full max-w-[190px] max-h-[258px] lg:mt-4"
+              className="-bottom-[150px] animate-spin-slow-nolinear w-full h-full max-w-[170px] max-h-[258px] mt-4"
             />
           </Link>
           {/* socials */}
