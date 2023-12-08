@@ -11,12 +11,12 @@ import {
 
 // nav data
 export const navData = [
-  { name: 'Главная', path: '/', icon: <HiHome /> },
-  { name: 'О нас', path: '/about', icon: <HiUserGroup /> },
-  { name: 'Услуги', path: '/services', icon: <HiRectangleGroup /> },
-  { name: 'Портфолио', path: '/work', icon: <HiViewColumns /> },
-  { name: 'Отзывы о нас', path: '/testimonials', icon: <HiChatBubbleBottomCenterText />, },
-  { name: 'Контакты', path: '/contact', icon: <HiEnvelope />, },
+  { name: 'Home', path: '/', icon: <HiHome /> },
+  { name: 'About', path: '/about', icon: <HiUserGroup /> },
+  { name: 'Services', path: '/services', icon: <HiRectangleGroup /> },
+  { name: 'Work', path: '/work', icon: <HiViewColumns /> },
+  { name: 'Testimonials', path: '/testimonials', icon: <HiChatBubbleBottomCenterText />, },
+  { name: 'Contact', path: '/contact', icon: <HiEnvelope />, },
 ];
 
 // next link

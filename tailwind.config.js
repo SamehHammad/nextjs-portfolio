@@ -34,6 +34,8 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
+        'spin-slow-nolinear': 'spin 6s reverse infinite',
+        'anim-ping': 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
       },
       fontFamily: {
         opensans: [`var(--font-opensans)`, 'sans-serif'],
